@@ -2,7 +2,7 @@
 
 A premium, interactive, and responsive cross-platform developer portfolio website built using **Flutter Web** and styled with modern design patterns (neon gradients, orbit visualizers, dark modes, and micro-animations).
 
-Live Demo: **[https://abhaysharmadev.github.io](https://abhaysharmadev.github.io)**
+Live Demo: **[https://abhaysharma20.github.io](https://abhaysharma20.github.io)**
 
 ---
 
@@ -34,8 +34,8 @@ To run the project locally, ensure you have the Flutter SDK installed.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/abhaysharmadev/abhaysharmadev.github.io.git
-   cd abhaysharmadev.github.io
+   git clone https://github.com/abhaysharma20/abhaysharma20.github.io.git
+   cd abhaysharma20.github.io
    ```
 
 2. **Get dependencies**:
