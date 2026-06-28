@@ -7565,7 +7565,8 @@ aFa:function aFa(a){this.a=a},
 aFb:function aFb(a){this.a=a},
 aFc:function aFc(a){this.a=a},
 aFd:function aFd(a){this.a=a},
-aFe:function aFe(a){this.a=a},
+aFe:function aFe(a,b){this.a=a
+this.b=b},
 aFf:function aFf(a){this.a=a},
 aFj:function aFj(){},
 aFl:function aFl(){},
@@ -47586,7 +47587,7 @@ j=A.hN(A.dl(A.d6(A.a_("GET IN TOUCH",o,o,o,j,o,o)),o,A.bw(4e5,0,0)),0.1)
 s=A.GS(A.dl(A.d6(A.bh(o,o,B.m,o,o,new A.be(n.dx,o,o,A.b8(2),o,o,B.F),o,4,o,o,o,o,60)),A.bw(15e4,0,0),o),0)
 r=t.p
 q=k?A.bC(A.b([p.Qs(a,l),B.dr,p.Qr(a,l)],r),B.B,B.o,B.q,B.v):A.cs(A.b([A.ei(p.Qs(a,l),3,o),B.CZ,A.ei(p.Qr(a,l),4,o)],r),B.O,B.o,B.q,o)
-return new A.aV(B.ew,A.d9(new A.dy(B.ou,A.bC(A.b([j,B.bi,s,B.dr,q,B.jI,A.d9(A.a_("Version 1.3.11",o,o,o,A.cf(o,o,m.k3.O(0.4),o,o,o,o,o,o,o,o,12,o,o,B.br,o,o,!0,o,o,o,o,o,o,o,o),o,o),o,o)],r),B.O,B.o,B.q,B.v),o),o,o),o)},
+return new A.aV(B.ew,A.d9(new A.dy(B.ou,A.bC(A.b([j,B.bi,s,B.dr,q,B.jI,A.d9(A.a_("Version 1.3.12",o,o,o,A.cf(o,o,m.k3.O(0.4),o,o,o,o,o,o,o,o,12,o,o,B.br,o,o,!0,o,o,o,o,o,o,o,o),o,o),o,o)],r),B.O,B.o,B.q,B.v),o),o,o),o)},
 Qs(a,b){var s,r,q,p,o=this,n=null,m=A.H(a).ok,l=m.r
 l=A.a_("Let's Collaborate",n,n,n,l==null?n:l.lj(B.u),n,n)
 s=o.HB(a,B.qL,new A.aBy(o),"Email","sharmaabhayagra@gmail.com")
@@ -47659,24 +47660,24 @@ s=this.r
 s.J$=r
 s.H$=0
 this.aB()},
-uC(){var s=0,r=A.x(t.H),q=1,p=[],o=[],n=this,m,l,k,j,i,h,g,f,e,d
+uC(){var s=0,r=A.x(t.H),q=1,p=[],o=[],n=this,m,l,k,j,i,h,g,f,e,d,c
 var $async$uC=A.y(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:e=n.w.gP()
-s=(e==null?null:e.oa())===!0?2:3
+s=q}while(true)switch(s){case 0:d=n.w.gP()
+s=(d==null?null:d.oa())===!0?2:3
 break
 case 2:m=B.c.dm(n.f.a.a)
 l=n.r.a.a
 n.a2(new A.aFa(n))
 q=5
-e=$.eI
-g=(e==null?$.eI=$.le():e).kp("[DEFAULT]")
-A.dg(g,$.jq(),!0)
+d=$.eI
+f=(d==null?$.eI=$.le():d).kp("[DEFAULT]")
+A.dg(f,$.jq(),!0)
 s=8
-return A.q(A.aTD(new A.hg(g)).iT("admin_config").iW("credentials").yl(0),$async$uC)
+return A.q(A.aTD(new A.hg(f)).iT("credentials").iW("credentials").yl(0),$async$uC)
 case 8:k=b
-if(k.ga__()&&J.aS0(k)!=null){e=J.aS0(k)
-e.toString
-j=e
+if(k.ga__()&&J.aS0(k)!=null){d=J.aS0(k)
+d.toString
+j=d
 i=A.bG(J.aL(j,"username"))
 h=A.bG(J.aL(j,"password"))
 if(J.c(m,i)&&J.c(l,h))n.a2(new A.aFb(n))
@@ -47685,8 +47686,9 @@ o.push(7)
 s=6
 break
 case 5:q=4
-d=p.pop()
-n.a2(new A.aFe(n))
+c=p.pop()
+g=A.al(c)
+n.a2(new A.aFe(n,g))
 o.push(7)
 s=6
 break
@@ -47743,7 +47745,7 @@ A.aFd.prototype={
 $0(){this.a.x="Admin credentials not configured on database server."},
 $S:0}
 A.aFe.prototype={
-$0(){this.a.x="Unable to connect to database server."},
+$0(){this.a.x="Connection error: "+A.h(this.b)},
 $S:0}
 A.aFf.prototype={
 $0(){this.a.e=!1},
