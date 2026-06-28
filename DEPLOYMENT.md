@@ -1,6 +1,6 @@
 # Portfolio Deployment Guide
 
-This guide describes how to deploy your Flutter portfolio website to GitHub Pages using your custom repository **abhaysharma.github.io**.
+This guide describes how to deploy your Flutter portfolio website to GitHub Pages using your custom repository **abhaysharmadev.github.io**.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ This guide describes how to deploy your Flutter portfolio website to GitHub Page
 2. Click **New** to create a new repository.
 3. Set the **Repository name** to exactly:
    ```text
-   abhaysharma.github.io
+   abhaysharmadev.github.io
    ```
 4. Set the visibility to **Public** (GitHub Pages requires public repositories for free tier hosting).
 5. Do **not** initialize the repository with a README, `.gitignore`, or license (we already have these locally).
@@ -39,7 +39,7 @@ git add .
 git commit -m "chore: initial commit and setup github actions deployment"
 
 # 4. Link your local repository to your remote GitHub repository
-git remote add origin https://github.com/abhaysharma/abhaysharma.github.io.git
+git remote add origin https://github.com/abhaysharmadev/abhaysharmadev.github.io.git
 
 # 5. Push your code to the main branch
 git push -u origin main
@@ -51,7 +51,7 @@ git push -u origin main
 
 Once you push the code to `main`, the **GitHub Actions workflow** (`.github/workflows/deploy.yml`) will automatically trigger:
 
-1. Go to your repository page on GitHub: `https://github.com/abhaysharma/abhaysharma.github.io`.
+1. Go to your repository page on GitHub: `https://github.com/abhaysharmadev/abhaysharmadev.github.io`.
 2. Click on the **Actions** tab to monitor the build progress.
 3. Wait for the build and deployment to complete successfully. This will create a new branch named `gh-pages` in your repository.
 4. Go to **Settings** > **Pages** (in the left-hand sidebar).
@@ -61,7 +61,7 @@ Once you push the code to `main`, the **GitHub Actions workflow** (`.github/work
 8. Ensure **Enforce HTTPS** is checked.
 
 Your portfolio site will be live at:
-**https://abhaysharma.github.io**
+**https://abhaysharmadev.github.io**
 
 ---
 
