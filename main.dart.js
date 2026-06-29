@@ -47723,7 +47723,7 @@ j=A.hl(A.d5(A.cY(A.Y("GET IN TOUCH",o,o,o,j,o,o)),o,A.br(4e5,0,0)),0.1)
 s=A.GY(A.d5(A.cY(A.bb(o,o,B.m,o,o,new A.b8(n.dx,o,o,A.b1(2),o,o,B.C),o,4,o,o,o,o,60)),A.br(15e4,0,0),o),0)
 r=t.p
 q=k?A.by(A.b([p.Qr(a,l),B.dr,p.Qq(a,l)],r),B.z,B.n,B.p,B.t):A.ci(A.b([A.eb(p.Qr(a,l),3,o),B.D3,A.eb(p.Qq(a,l),4,o)],r),B.K,B.n,B.p,o)
-return new A.aQ(B.eB,A.db(new A.dz(B.oz,A.by(A.b([j,B.bj,s,B.dr,q,B.jM,A.db(A.Y("Version 1.3.0",o,o,o,A.c2(o,o,m.k3.N(0.4),o,o,o,o,o,o,o,o,12,o,o,B.bf,o,o,!0,o,o,o,o,o,o,o,o),o,o),o,o)],r),B.K,B.n,B.p,B.t),o),o,o),o)},
+return new A.aQ(B.eB,A.db(new A.dz(B.oz,A.by(A.b([j,B.bj,s,B.dr,q,B.jM,A.db(A.Y("Version 1.3.21",o,o,o,A.c2(o,o,m.k3.N(0.4),o,o,o,o,o,o,o,o,12,o,o,B.bf,o,o,!0,o,o,o,o,o,o,o,o),o,o),o,o)],r),B.K,B.n,B.p,B.t),o),o,o),o)},
 Qr(a,b){var s,r,q,p=this,o=null,n=A.H(a).ok,m=n.r
 m=A.Y("Let's Collaborate",o,o,o,m==null?o:m.lk(B.u),o,o)
 s=p.TF(a,B.qQ,new A.aBC(p),"Email","sharmaabhayagra@gmail.com")
